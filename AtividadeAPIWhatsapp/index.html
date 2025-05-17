@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enviar mensagem</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="forms">
+            <form onsubmit="enviarMensagem(event)">
+                <label for="nome">Digite seu nome:</label><br>
+                <input type="text" id="nome" name="nome" placeholder="Ex: Lucas"><br><br>
+
+                <label for="mensagem">Digite a mensagem:</label><br>
+                <input type="text" id="mensagem" name="mensagem"><br><br>
+
+                <label for="numero">Número de quem deseja enviar a mesagem:</label><br>
+                <input type="text" id="numero" name="numero" placeholder="Digite o número sem letras, traços ou pontos"><br><br>
+                <div class="botao">
+                    <button type="submit">ENVIAR</button>
+                </div>
+            </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
