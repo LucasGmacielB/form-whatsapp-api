@@ -13,7 +13,7 @@ function enviarMensagem (event) {
 
     
 
-    const texto = `Olá, meu nome é ${nome}.                                                                                                                                                                                                     ${mensagem}`;
+    const texto = `Olá! meu nome é ${nome}, quero te enviar uma mensagem.\n Mensagem: ${mensagem}`;
     const link = `https://api.whatsapp.com/send?phone=55${numero}&text=${texto}`;
     
     
